@@ -4,7 +4,8 @@
   "description": "This is a more in-depth MAL app when it comes to rating anime/manga",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/0uzen/MAL2.0_test-app/issues"
   },
-  "homepage": "https://github.com/0uzen/MAL2.0_test-app#readme"
+  "homepage": "https://github.com/0uzen/MAL2.0_test-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
