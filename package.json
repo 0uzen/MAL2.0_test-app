@@ -1,25 +1,16 @@
 {
-  "name": "mal2.0",
-  "version": "1.0.0",
-  "description": "This is a more in-depth MAL app when it comes to rating anime/manga",
-  "main": "index.js",
+  "name": "mal2.0-test-app",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "tapp": "nodemon testapp.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/0uzen/MAL2.0_test-app.git"
-  },
-  "author": "Ryan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/0uzen/MAL2.0_test-app/issues"
-  },
-  "homepage": "https://github.com/0uzen/MAL2.0_test-app#readme",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1"
   }
 }
